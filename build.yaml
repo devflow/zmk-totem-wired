@@ -18,3 +18,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: seeeduino_xiao_rp2040
+    shield: totem_left
+  - board: seeeduino_xiao_rp2040
+    shield: totem_right
+ 
+ 
