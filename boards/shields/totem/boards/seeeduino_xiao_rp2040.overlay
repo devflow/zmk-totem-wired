@@ -1,6 +1,1 @@
- 
-&uart0 {
-    pinctrl-0 = <&xiao_serial>;
-    pinctrl-names = "default";
-    status = "okay";
-};
+
