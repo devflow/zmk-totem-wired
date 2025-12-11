@@ -14,7 +14,7 @@
 
     wired_split {
         compatible = "zmk,wired-split";
-        device = <&pio0>;
+        device = <&pio0_uart>;
     };
 
     default_transform: keymap_transform_0 {
