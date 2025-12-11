@@ -8,13 +8,16 @@
 #include <dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h>
 
 &pinctrl {
-    uart0_default: uart0_default {
-        group1 {
-            pinmux = <UART0_TX_P0>;
+    pio0_uart_default: pio0_uart_default {
+        tx_pins {
+            /* configure P0 as UART0 TX */
+            pinmux = <PIO0_P0>;
             };
-        group2 {
-            pinmux = <UART0_RX_P1>;
+        rx_pins {
+            /* configure P1 as UART0 RX */
+            pinmux = <PIO0_P1>;
             input-enable;
+            bias-pull-up;
         };
     };
 };
