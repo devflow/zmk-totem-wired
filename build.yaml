@@ -19,9 +19,7 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_rp2040
+  - board: xiao_rp2040
     shield: totem_left
-  - board: seeeduino_xiao_rp2040
+  - board: xiao_rp2040
     shield: totem_right
- 
- 
